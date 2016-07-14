@@ -1,0 +1,55 @@
+@charset "utf-8";
+body{min-width:320px;max-width:640px;margin-left:auto;margin-right:auto;font-family:Microsoft YaHei,Arial,Helvetica,sans-serif;background-color: #FDFDFD;}
+.min{height:100%;padding-bottom: 2.2rem;padding-top:1.7rem;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;overflow: hidden;}
+.sidebar{position: absolute;height: 100%;position: fixed;z-index: 2;top:1.7rem;left: -100%;height:100%;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;}
+.sidebar.isshow{left:0;}
+.min .bg{background-color: #000;opacity:.5;width:100%;height:100%;position: fixed;left:0;top:0;z-index: 1;display: none;}
+.sidebar .mnav{background:url(../images/icon/bg.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/bg.png*/ 0 0 repeat;height: 100%;width:6.75rem;position: relative;}
+.sidebar .mnav a{display: block;height: 2.95rem;line-height: 2.95rem;font-size: 0.75rem;color:#FFF;text-align: center;border-top:1px solid #2A2F31;border-bottom:1px solid #6A6D6D;}
+.sidebar .mnav a:first-child{border-top:none;}
+.sidebar .mnav a:last-child{border-bottom:none;}
+/*.min*/
+.header{font-size: 0.7rem;line-height: 1.7rem;height:1.7rem;background-color: #fff;position: relative;text-align: center;position: fixed;top:0;width:16rem;z-index:3;}
+.header span{position: absolute;background-repeat:no-repeat;background-position: 0 0;-webkit-background-size:cover;background-size:cover;}
+.header .btn{width:0.975rem;height: 0.75rem;background-image:url(../images/icon/btn.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/btn.png*/;left: 0.35rem;top:0.45rem;}
+.header .xinxi{width:1.075rem;height:0.825rem;background-image:url(../images/icon/news.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/news.png*/;right:0.575rem;top: 0.5rem;}
+.header .xinxi i{width:13px;height: 13px;line-height: 13px;font-size:12px;text-align: center;border-radius:50%;-webkit-border-radius:50%;position: absolute;top:-3px;right:-3px;background-color: #EE2E30;color:#FFF;}
+.banner{width:100%;box-shadow:0 2px 2px #ccc}
+.banner img{width:100%;}
+.subnav{height: 3.65rem;border-bottom:1px solid #C6C6C6;}
+.subnav li{float: left;width:20%;text-align: center;}
+.subnav li img{width:2.1rem;margin-top: 0.425rem;}
+.subnav li span{display: block;font-size:0.375rem;margin-top:0.375rem;height: 0.375rem;line-height: 0.375rem;color:#AEAFAE;}
+.item{}
+.item .title{height: 1.125rem;line-height: 1.125rem;border-bottom:1px solid #C6C6C6}
+.title span{float: left;width:4rem;height:1.075rem;display: block;border-bottom:0.075rem solid #C0173B;margin-bottom:-0.075rem;font-size: 0.6rem;text-align: center;}
+.title a.more{float: right;margin-right: 0.5rem;font-size: 0.35rem;}
+.icont li{border-bottom:1px solid #C6C6C6;padding:0.3rem 0.75rem 0.2rem;height: 2.025rem;}
+.icont li img{width:4.55rem;height: 2.025rem;float: left;}
+.icont li .text{margin-left:5.175rem}
+.icont li .text h5{font-size: 0.6rem;height: 1.05rem;line-height: 1.05rem;}
+.icont li .text h5 span{font-size: 0.35rem;margin-left:0.25rem}
+.icont li .text p{font-size: 0.45rem}
+.icont li .text p span{color:#ED1B24;}
+.item .huod{padding:0.4rem;}
+.huod .row a{display: block;font-size: 0.6rem;color:#FFF;}
+.huod .row.fl{width:5.8rem;}
+.huod .row.fl a{width:5.8rem;height: 6.475rem;background-color:#55B37F;text-align: center;line-height:6.475rem;}
+.huod .row.fr{width:9.2rem;}
+.huod .row.fr a{width:9.2rem;}
+.huod .row.fr a:first-child{height: 3.2rem;background-color: #FD920C;margin-bottom:0.35rem;}
+.huod .row.fr a:last-child{height: 2.925rem;background-color: #E55026;}
+.huod .row.fr a span{line-height: 1.85rem;}
+.huod .row.fr a:first-child span{margin-left:0.75rem;float: left;}
+.huod .row.fr a:last-child span{margin-right:0.75rem;float: right;}
+.hothead .headline{background: url(../images/icon/headline.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/headline.png*/ center center no-repeat;-webkit-background-size:1.425rem 0.7rem;
+background-size:1.425rem 0.7rem;}
+.hothead .hottxt{margin-left: 4rem;text-align: center;font-size: 0.55rem;}
+.footer{height: 2.2rem;background-color: #252525;position: fixed;bottom:0;width:16rem;z-index: 3;}
+.footer a{display: inline-block;width:3.2rem;text-align: center;float: left;padding-top: 1.5rem;background-repeat:no-repeat;}
+.footer a.btn_home{background-image: url(../images/icon/btn_home.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/btn_home.png*/;background-position:center 0.35rem;-webkit-background-size: 1.025rem 0.85rem;background-size: 1.025rem 0.85rem;}
+.footer a.btn_contact{background-image: url(../images/icon/btn_contact.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/btn_contact.png*/;background-position: center 0.35rem;-webkit-background-size: 0.8rem 0.975rem;background-size: 0.8rem 0.975rem;}
+.footer a.btn_rwm{background-image: url(../images/icon/btn_rwm.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/btn_rwm.png*/;height:2.2rem;padding-top:0;-webkit-background-size: 1.45rem 1.425rem;background-size: 1.45rem 1.425rem;background-position: center center;}
+.footer a.btn_add{background-image: url(../images/icon/btn_add.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/btn_add.png*/;-webkit-background-size: 0.725rem 0.875rem;background-size: 0.725rem 0.875rem;background-position: center 0.375rem;}
+.footer a.btn_me{background-image: url(../images/icon/btn_me.png)/*tpa=http://lovechengfu.com/works/htlh/images/icon/btn_me.png*/;-webkit-background-size: 0.625rem 0.7rem;background-size: 0.625rem 0.7rem;background-position: center 0.45rem;}
+.footer a span{display: block;color:#FFF;font-size: 0.45rem;}

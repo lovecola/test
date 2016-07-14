@@ -1,0 +1,55 @@
+/* CSS Document */
+
+#footer {
+	width:100%;
+	height:240px;
+	padding-top:40px;
+	background:#363636;
+	color:#9a9a9a;
+}
+
+#footer a {
+	color:#9a9a9a;
+}
+
+#f_content {
+	width:800px;
+	margin:0px auto;
+}
+
+#f_content ul, #sao_weibo, #sao_weixin {
+	float:left;	
+}
+
+#f_content ul {
+	margin-right:100px;
+	line-height:30px;
+	margin-bottom:30px;
+}
+
+.f_title {
+	font-size:18px;
+	line-height:40px;
+}
+
+#sao_weibo, #sao_weixin {
+	margin-top:10px;
+	height:99px;
+	background-image:url("../images/iconlist.png");	
+}
+
+#sao_weibo {
+	width:194px;
+	background-position:-1070px -150px;
+	margin-right:30px;
+}
+
+#sao_weixin {
+	width:194px;
+	background-position:-1070px -40px;
+}
+
+#f_content p {
+	clear:both;
+	text-align:center;
+}

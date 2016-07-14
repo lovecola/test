@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>惠通</title>
+	<link rel="stylesheet" href="css/reset.css" >
+	<link rel="stylesheet" href="css/comin.css" >
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script>
+	window.onload = window.onresize = function () {
+		var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		var _html = document.getElementsByTagName('html')[0];
+		if (view_width > 640)
+		{
+			_html.style.fontSize = 640 / 16 + 'px';
+		}
+		else
+		{
+			_html.style.fontSize = view_width / 16 + 'px';
+		}
+	}
+	</script>
+</head>
+<body>
+	<div class="min">
+		<div class="header">
+			<span class="btn" id="btn"></span>
+			<span class="xinxi"><i>1</i></span>
+			<h4>北京兰德陆华捷豹路虎4S中心</h4>
+		</div>
+		<div class="content">
+			<div class="conter">
+				<div class="banner">
+					<ul>
+						<li><a href="javascript:;"><img src="images/img/banner.jpg" alt=""/></a></li>
+					</ul>
+				</div>
+				<div class="subnav">
+					<ul class="clearfix">
+						<li>
+							<a href="javascript:;">
+								<img src="images/icon/icon1.png" /> alt=""/>
+								<span>新车商城</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="images/icon/icon2.png" /> alt=""/>
+								<span>分期计算器</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="images/icon/icon3.png" /> alt=""/>
+								<span>直接问价</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="images/icon/icon4.png" /> alt=""/>
+								<span>最新活动</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="images/icon/icon4.png" /> alt=""/>
+								<span>车主服务</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="item">
+					<div class="title"><span>热销车型推荐</span><a href="javascript:;" class="more">全部  ></a></div>
+					<div class="icont">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/img/car.jpg" /> alt=""/>
+									<div class="text">
+										<h5>
+											<strong>路虎揽胜</strong><span>RMB 155.8-329.8万元</span>
+										</h5>
+										<p><span>137万元</span>|<span>综合优惠 ↓ 18.8万元</span>|<span>现车</span></p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/img/car.jpg"  alt=""/>
+									<div class="text">
+										<h5>
+											<strong>路虎揽胜</strong><span>RMB 155.8-329.8万元</span>
+										</h5>
+										<p><span>137万元</span>|<span>综合优惠 ↓ 18.8万元</span>|<span>现车</span></p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/img/car.jpg"  alt=""/>
+									<div class="text">
+										<h5>
+											<strong>路虎揽胜</strong><span>RMB 155.8-329.8万元</span>
+										</h5>
+										<p><span>137万元</span>|<span>综合优惠 ↓ 18.8万元</span>|<span>现车</span></p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="item">
+					<div class="title"><span>售后活动</span><a href="javascript:;" class="more">全部  ></a></div>
+					<div class="huod clearfix">
+						<div class="row fl">
+							<div>
+								<a href="#"><span>爆款</span></a>
+							</div>
+						</div>
+						<div class="row fr">
+							<a href="#"><span>免费检测活动</span></a>
+							<a href="#"><span>自驾招募</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="title hothead">
+						<span class="headline"></span>
+						<div class="hottxt">
+							<a href="javascript:;" class="">东莞惠通陆华常平捷豹路虎4S旗舰店试营业</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="javascript:;" class="btn_home">
+				<span>首页</span>
+			</a>
+			<a href="javascript:;" class="btn_contact">
+				<span>来找我</span>
+			</a>
+			<a href="javascript:;" class="btn_rwm">
+			</a>
+			<a href="javascript:;" class="btn_add">
+				<span>联系我</span>
+			</a>
+			<a href="javascript:;" class="btn_me">
+				<span>我的</span>
+			</a>
+		</div>
+		<div class="sidebar ishide" id="sidebar">
+			<div class="mnav">
+				<a href="#">首页</a>
+				<a href="#">新车商城</a>
+				<a href="#">精彩活动</a>
+				<a href="#">新闻资讯</a>
+				<a href="#">售后服务</a>
+				<a href="#">联系我们</a>
+				<a href="#">关于我们</a>
+			</div>
+		</div>
+		<div class="bg"></div>
+	</div>
+</body>
+</html>

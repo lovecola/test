@@ -1,0 +1,44 @@
+/*05li的移动：left:从-474移动到612*/
+@-webkit-keyframes move{
+	0%{left:-1017px}
+	100%{left:612px}
+}
+@-webkit-keyframes move1{
+	0%{left:-1017px}
+	100%{left:0px}
+}
+@-webkit-keyframes move2{
+	0%{left:-1017px}
+	100%{left:153px}
+}
+@-webkit-keyframes move3{
+	0%{left:-1017px}
+	100%{left:306px}
+}
+@-webkit-keyframes move4{
+	0%{left:-1017px}
+	100%{left:459px}
+}
+/*05i的旋转: 从0deg，转到720deg*/
+@-webkit-keyframes rotate{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(1080deg)}
+}
+#circle_05{/*速度407.25*/
+	-webkit-animation:move 4s linear forwards;
+}
+#circle_01{/*距离：1017*/
+	-webkit-animation:move1 2.5s linear forwards;
+}
+#circle_02{/*距离：1170*/
+	-webkit-animation:move2 2.87s linear forwards;
+}
+#circle_03{/*距离：1323*/
+	-webkit-animation:move3 3.25s linear forwards;
+}
+#circle_04{/*距离：1476*/
+	-webkit-animation:move4 3.62s linear forwards;
+}
+#circle_05>i{
+	-webkit-animation:rotate 4s linear forwards;
+}

@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header {
+	width:100%;
+	height:520px;
+	background:#dedede url("../images/imagebg.jpg") no-repeat center center;
+	padding-top:120px;
+}
+
+#title, #summary, #main_img {
+	margin:0px auto;
+}
+
+#title {
+	width:453px;
+	height:51px;
+	background:url("../images/iconlist.png") -270px 0px;
+}
+
+#summary {
+	width:432px;
+	height:17px;
+	background:url("../images/iconlist.png") -730px 0px;
+	margin-top:30px;
+}
+
+#main {
+	margin:0px auto;
+	width:785px;
+	margin-top:90px;
+	position:relative;
+}
+
+#main li {
+	width:173px;
+	float:left;
+	position:absolute;
+}
+
+#circle_01 {
+	left:0px;
+	z-index:10;
+}
+
+#circle_02 {
+	left:153px;
+	z-index:20;
+}
+
+#circle_03 {
+	left:306px;
+	z-index:30;
+}
+
+#circle_04 {
+	left:459px;
+	z-index:40;
+}
+
+#circle_05 {
+	left:612px;
+	z-index:50;
+}
+
+#main li i {
+	display:block;
+	width:173px;
+	height:173px;
+	background-image:url("../images/iconlist.png");
+	position:relative;
+	z-index:20;
+}
+
+#main li s {
+	display:block;
+	width:173px;
+	height:24px;
+	background:url("../images/iconlist.png") no-repeat -190px -240px;
+	margin-top:-10px;
+	position:relative;
+	z-index:10;
+}
+
+#circle_01 i {
+	background-position:-190px -60px;
+}
+
+#circle_02 i {
+	background-position:-363px -60px;
+}
+
+#circle_03 i {
+	background-position:-536px -60px;
+}
+
+#circle_04 i {
+	background-position:-709px -60px;
+}
+
+#circle_05 i {
+	background-position:-882px -60px;
+}
+
+#content {
+	margin:100px auto;
+}
+
+#content i, #content s, #content b {
+	margin:0px auto;
+	display:block;	
+}
+
+#content i {
+	width:326px;
+	height:37px;
+	background:url("../images/iconlist.png") 0px -270px;	
+}
+
+#content s {
+	width:994px;
+	height:54px;
+	background:url("../images/iconlist.png") -330px -270px;	
+	margin-top:40px;
+}
+
+#content b {
+	width:710px;
+	height:310px;
+	background:url("../images/image2.jpg");	
+	margin-top:30px;
+}
+
+#call {
+	height:615px;
+	padding-top:85px;
+	background:url("../images/bg1.jpg") no-repeat center center;
+}
+
+.call {
+	width:994px;
+	height:533px;
+	margin:0px auto;
+	background:url("../images/bg1_content.png") no-repeat;
+}
+
+#remind {
+	height:700px;
+	background:url("../images/bg2.jpg") no-repeat center center;
+}
+
+#location {
+	height:615px;
+	padding-top:85px;
+	background:url("../images/bg3.jpg") no-repeat center center;
+}
+
+.location {
+	width:994px;
+	height:533px;
+	margin:0px auto;
+	background:url("../images/bg3_content.png") no-repeat;
+}
+
+#icons {
+	height:500px;
+	background:url("../images/icons.png") no-repeat center center;
+}
+
+

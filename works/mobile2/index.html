@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>主页</title>
+    <link rel="stylesheet" href="css/glide.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <!--[if lt IE 9]>
+    <script src="js/html5.js" ></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js" ></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.0.1.min.js" ></script>
+    <script type="text/javascript" src="js/jquery.placeholder.js" ></script>
+    <script type="text/javascript" src="js/jquery.glide.js"></script>
+    <script type="text/javascript" src="js/addons.js" ></script>
+    <script type="text/javascript">
+    $(function(){
+        var glide = $('.glide').glide({
+            animationTime:500, //动画过度效果，只有当浏览器支持CSS3的时候生效
+            arrows:false, //是否显示左右导航器
+            arrowRightText:"",//定义左右导航器文字或者符号也可以是类
+            arrowLeftText:"",
+            nav:true, //主导航器也就是本例中显示的小方块
+            navCenter:true, //主导航器位置是否居中
+            navClass:"slider-nav",//主导航器外部div类名
+            navItemClass:"slide-current", //本例中小方块的样式
+            navCurrentItemClass:"" //被选中后的样式
+        });
+    })
+</script>
+</head>
+
+<body>
+
+    <div class="layout layout-pb">
+        <div class="header">
+            <div class="left">
+                <div class="ico-city"> <strong>城市</strong>
+                    <div class="sub"></div>
+                </div>
+            </div>
+            <h2></h2>
+            <div class="right">
+                <a href="#" class="ico-sear"></a>
+            </div>
+        </div>
+
+        <div class="home-slide glide">
+            <ul class="slides">
+                <li class="slide">
+                    <a href="#">
+                        <img src="imgs/img1.jpg" /></a>
+                </li>
+                <li class="slide">
+                    <a href="#">
+                        <img src="imgs/img1.jpg"/> ></a>
+                </li>
+                <li class="slide">
+                    <a href="#">
+                        <img src="imgs/img1.jpg" /></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="home-nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img src="imgs/img3.png"/></div>
+                        <h2>优惠活动</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img src="imgs/img4.png"/></div>
+                        <h2>食友记</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img src="imgs/img5.png" /></div>
+                        <h2>招牌菜</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img src="imgs/img6.png"/></div>
+                        <h2>快速订座</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="home-block home-tj">
+            <div class="head">
+                <h2>今日推荐</h2>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="img">
+                                <img src="imgs/img2.jpg" /></div>
+                            <div class="tip">
+                                <h2>萨瓦迪卡</h2>
+                                <h4>泰式柠檬烤鱼</h4>
+                            </div>
+                            <div class="ico">
+                                <span>98</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="img">
+                                <img src="imgs/img3.jpg"/> ></div>
+                            <div class="tip">
+                                <h2>口感爆棚</h2>
+                                <h4>芝士烤馕</h4>
+                            </div>
+                            <div class="ico ico-selected">
+                                <span>100</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="img">
+                                <img src="imgs/img4.jpg"/></div>
+                            <div class="tip">
+                                <h2>中华美食</h2>
+                                <h4>一口一个煎饺</h4>
+                            </div>
+                            <div class="ico">
+                                <span>45</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="img">
+                                <img src="imgs/img5.jpg"/>
+                            </div>
+                            <div class="tip">
+                                <h2>奶香邂逅</h2>
+                                <h4>马卡龙和咖啡</h4>
+                            </div>
+                            <div class="ico">
+                                <span>45</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="home-block home-hot">
+            <div class="head">
+                <h2>热门餐厅</h2>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>
+                        <div class="img">
+                            <img src="imgs/img6.jpg" /></div>
+                        <div class="tip">
+                            <h2>湄南河泰缅餐厅</h2>
+                            <dl>
+                                <dd class="tel"> <i class="phone"></i>
+                                    0731-28245698
+                                </dd>
+                                <dd class="addr"> <i class="dz"></i>
+                                    株洲市新华西路王府井六楼
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="icos">
+                            <dl>
+                                <dd>
+                                    <img src="imgs/img12.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img13.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img14.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img15.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img16.png" /></dd>
+                            </dl>
+                        </div>
+                        <div class="tag">
+                            <span>4.0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="imgs/img7.jpg" /></div>
+                        <div class="tip">
+                            <h2>和风日式料理</h2>
+                            <dl>
+                                <dd class="tel">
+                                    <i class="phone"></i>
+                                    0731-28247777
+                                </dd>
+                                <dd class="addr">
+                                    <i class="dz"></i>
+                                    株洲市建设南路701号
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="icos">
+                            <dl>
+                                <dd>
+                                    <img src="imgs/img12.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img13.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img15.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img16.png" /></dd>
+                            </dl>
+                        </div>
+                        <div class="tag">
+                            <span>4.0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="imgs/img8.jpg" /></div>
+                        <div class="tip">
+                            <h2>和风日式料理</h2>
+                            <dl>
+                                <dd class="tel">
+                                    <i class="phone"></i>
+                                    0731-28247777
+                                </dd>
+                                <dd class="addr">
+                                    <i class="dz"></i>
+                                    株洲市建设南路701号
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="icos">
+                            <dl>
+                                <dd>
+                                    <img src="imgs/img12.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img13.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img15.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img16.png" /></dd>
+                            </dl>
+                        </div>
+                        <div class="tag">
+                            <span>4.0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="imgs/img9.jpg" /></div>
+                        <div class="tip">
+                            <h2>湄南河泰缅餐厅</h2>
+                            <dl>
+                                <dd class="tel">
+                                    <i class="phone"></i>
+                                    0731-28245698
+                                </dd>
+                                <dd class="addr">
+                                    <i class="dz"></i>
+                                    株洲市新华西路王府井六楼
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="icos">
+                            <dl>
+                                <dd>
+                                    <img src="imgs/img12.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img13.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img14.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img15.png" /></dd>
+                                <dd>
+                                    <img src="imgs/img16.png" /></dd>
+                            </dl>
+                        </div>
+                        <div class="tag">
+                            <span>4.0</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li class="selected">
+                    <a href="#">
+                        <i class="ico-home"></i>
+                        <h2>主页</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico-food"></i>
+                        <h2>挑食</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico-near"></i>
+                        <h2>附近</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico-mine"></i>
+                        <h2>我的</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

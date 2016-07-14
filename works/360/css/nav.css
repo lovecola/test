@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size:14px;
+	font-family:"microsoft Yahei";
+	color:#626262;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+a {
+	color:#626262;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#nav {
+	width:100%;
+	border-bottom:1px solid #e0e0e0;
+	margin-top:10px;	
+}
+
+#navi {
+	width:980px;
+	height:40px;
+	margin:0px auto;
+}
+
+#logo {
+	width:153px;
+	height:27px;
+	background:url("../images/iconlist.png");
+	float:left;
+}
+
+#link {
+	float:right;
+}
+
+#link li {
+	float:left;
+}
+
+#link a {
+	display:block;
+	height:38px;
+	line-height:35px;
+	padding:0px 15px;
+	font-size:14px;
+	color:#5a5a5a;
+	text-decoration:none;
+}
+
+#link a.current {
+	border-bottom:3px solid #f05157;
+}
+
+#link a:hover {
+	border-bottom:3px solid #f05157;
+}
+
+#link li i {
+	display:inline-block;
+	width:86px;
+	height:26px;
+	background-image:url("../images/iconlist.png");
+	margin-top:3px;
+	margin-left:10px;
+}
+
+#android i {
+	background-position:0px -30px;
+}
+
+#android i:hover {
+	background-position:-90px -30px;
+}
+
+#ios i {
+	background-position:-180px -30px;
+}

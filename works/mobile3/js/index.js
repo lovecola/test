@@ -1,0 +1,13 @@
+$(function(){
+	$('#btn').on('click',function(){
+		$('.bg').show();
+		$('#sidebar').addClass('isshow');
+		$()
+	})
+	$('.min').on('click',function(e){
+		if(e.target==$('.bg')[0]){
+			$('#sidebar').removeClass('isshow');
+			$('.bg').hide();
+		}
+	})
+})
